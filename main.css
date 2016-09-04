@@ -1,0 +1,106 @@
+#whole {
+  background: honeydew;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+    color: #757575;
+  height: 100vh;
+}
+
+input[type="image" i] {
+  opacity: 0.6;
+  margin-left: auto;
+}
+
+.request-title {
+  background-color: antiquewhite;
+  font-size: 30px;
+  padding: 24px;
+}
+
+#option {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 24px;
+  background-color: azure;
+  display: flex;
+  align-items: baseline;
+}
+
+#option-text {
+  font-size: 24px;
+}
+
+#queueState_div {
+   font-size: 1.1em;
+  padding: 24px;
+}
+
+#buttons {
+  display: flex;
+}
+
+#no_btn, #yes_btn {
+  color: darkseagreen;
+  flex: 1;
+  padding: 24px;
+  font-size: 1.1em;
+}
+
+#no_btn {
+  text-align: left;
+}
+
+#yes_btn {
+  text-align: right;
+}
+
+.center {
+  flex: 1;
+  text-align: center;
+}
+
+.current_element {
+  background-color: #ffcccb;
+}
+
+.queue_table, .ready_table {
+  width: 100%;
+}
+
+.queue-table-header {
+  background: antiquewhite;
+    padding: 24px;
+    margin: 0;
+}
+
+.ready-table-header {
+  background: honeydew;
+  padding: 24px;
+  margin: 0;
+}
+
+#serve_button {
+  margin-top: 24px;
+}
+
+input[type="radio" i] {
+  margin-right: 16px;
+}
+
+#option.checked {
+  background: lightblue;
+}
+
+#queue-button {
+  border: none;
+  background-color: transparent;
+  margin: 24px;
+  color: cadetblue;
+  font-size: 20px;
+}
+
+#queue-button:disabled {
+  opacity: .5;
+}
